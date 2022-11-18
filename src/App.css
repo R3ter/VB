@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  /* background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%); */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -26,6 +26,14 @@ function Header(props) {
           title: "المقالات",
           url: "/articles",
         },
+        {
+          title: "فيديوهات",
+          url: "/articles",
+        },
+        {
+          title: "مش عارف شو",
+          url: "/articles",
+        },
       ],
     },
   ];
@@ -104,7 +112,7 @@ Header.propTypes = {
     PropTypes.shape({
       title: PropTypes.string.isRequired,
       url: PropTypes.string.isRequired,
-    }),
+    })
   ).isRequired,
   title: PropTypes.string.isRequired,
 };

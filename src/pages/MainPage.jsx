@@ -20,6 +20,7 @@ function MainPage() {
       <main>
         <Paper
           sx={{
+            blockSize: 600,
             position: "relative",
             backgroundColor: "grey.800",
             color: "#fff",
